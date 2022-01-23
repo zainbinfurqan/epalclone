@@ -3,6 +3,8 @@
 .DS_Store
 .env
 # Xcode
+ios/
+ios/epalclone.xcodeproj/project.pbxproj
 #
 build/
 *.pbxuser

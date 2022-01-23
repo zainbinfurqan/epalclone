@@ -24,7 +24,9 @@ import {
   LearnMoreLinks,
   ReloadInstructions,
 } from 'react-native/Libraries/NewAppScreen';
+import GamesList from './src/screens/games/list';
 import Login from './src/screens/Login';
+import Registration from './src/screens/signup';
 
 const App = () => {
   const isDarkMode = useColorScheme() === 'dark';
@@ -36,7 +38,9 @@ const App = () => {
   return (
     <SafeAreaView style={{ flex: 1, borderWidth: 2 }}>
       <StatusBar barStyle={isDarkMode ? 'light-content' : 'dark-content'} />
-      <Login />
+      {/* <Login /> */}
+      <GamesList />
+      {/* <Registration /> */}
     </SafeAreaView>
   );
 };
